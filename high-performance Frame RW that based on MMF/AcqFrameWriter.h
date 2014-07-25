@@ -8,14 +8,14 @@ namespace HC
 {
 
     template<class T>
-    class CAcqFrameWriter
+    class AcqFrameWriter
     {
     public:
-        CAcqFrameWriter(void)
+        AcqFrameWriter(void)
         {
 
         }
-        ~CAcqFrameWriter(void)
+        ~AcqFrameWriter(void)
         {            
         }
 
@@ -105,7 +105,7 @@ namespace HC
 
     private:
         FrameStreamHeader m_FrameStreamheader;
-        CWriter<T> m_writer;
+        Writer<T> m_writer;
         AcqFrame m_frame;
     };
 

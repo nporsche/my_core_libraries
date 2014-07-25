@@ -7,15 +7,15 @@
 namespace HC
 {
     template<class T>
-    class CAcqFrameReader
+    class AcqFrameReader
     {
     public:
-        CAcqFrameReader()
+        AcqFrameReader()
         {
 
         }
 
-        ~CAcqFrameReader()
+        ~AcqFrameReader()
         {
             
         }
@@ -119,7 +119,7 @@ namespace HC
         }
 
     private:
-        CReader<T> m_reader;
+        Reader<T> m_reader;
         FrameStreamHeader m_frameStreamHeader;
         AcqFrame::Buffer m_buffer;
     };

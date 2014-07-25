@@ -3,14 +3,14 @@
 namespace HC
 {
     template <class T>
-    class CWriter
+    class Writer
     {
     public:
-        CWriter(void)
+        Writer(void)
         {
 
         }
-        ~CWriter(void)
+        ~Writer(void)
         {
 
         }

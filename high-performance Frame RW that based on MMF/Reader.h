@@ -3,12 +3,12 @@
 namespace HC
 {
     template<class T>
-    class CReader 
+    class Reader 
     {
     public:
-        CReader() {}
+        Reader() {}
 
-        ~CReader(void) 
+        ~Reader(void) 
         {            
         }
 

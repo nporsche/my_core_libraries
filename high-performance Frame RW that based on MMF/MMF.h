@@ -4,10 +4,10 @@
 
 namespace HC
 {
-    class CMMF
+    class MMF
     {
     public:
-        CMMF():
+        MMF():
               m_hMMF(NULL),
               m_hFile(NULL),
               m_WriteOffset(0),
@@ -16,7 +16,7 @@ namespace HC
               m_dwAllocationGranularity(0)
           {}
 
-          ~CMMF(void)
+          ~MMF(void)
           {
               Uninit();
           }
